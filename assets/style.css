@@ -1,0 +1,97 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgb(99, 99, 99);
+    text-align: center;
+}
+
+header {
+    background: white;
+}
+
+#logo {
+    font-family: lobster;
+    line-height: 125px;
+    display: inline-block;
+}
+
+#logo-l {
+    color: green;
+}
+
+#logo-s {
+    color: rgb(255, 177, 50);
+}
+
+/* Game area */
+
+#game-area {
+    width: 85%;
+    height: 65vh;
+    background: lightgrey;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+#game-area p {
+    display: inline-block;
+    margin-top: 25%;
+}
+
+#game-area i {
+    font-size: 80px;
+}
+
+#game-area div {
+    display: inline-block;
+    width: 30%;
+    height: 50%;
+    margin-top: 20%;
+}
+
+#player-choice {
+    float: left;
+}
+
+#computer-choice {
+    float: right;
+}
+
+#button {
+    position: relative;
+    width: 80px;
+    height: 60px;
+    border: none;
+    border-radius: 6px;
+    margin: 10px 12px 10px 12px;
+}
+
+#button i {
+    display: block;
+    margin-top: 4px;
+}
+
+#buttons {
+    position: relative;
+    height: contain;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/* Footer*/
+
+footer {
+    text-align: center;
+    height: 150px;
+    background: white;
+    padding-top: 5px;
+}
+
+footer h3 {
+    margin: 6px;
+}
+
+footer p {
+    margin: 0;
+}
