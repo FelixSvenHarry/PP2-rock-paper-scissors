@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/style.css" />
-    <title>Rock, Paper, Scissor, Lizard, Spock</title>
+    <title>Rock, Paper, Scissors</title>
 
     <!-- Link to google fonts-->
 
@@ -18,51 +18,32 @@
   </head>
   <body>
     <header>
-      <h1 id="logo">
-        ROCK, PAPER, SCISSOR,
-        <span id="logo-l">LIZARD</span>,
-        <span id="logo-s">SPOCK</span>
-      </h1>
+      <h1 id="logo">ROCK PAPER SCISSORS</h1>
     </header>
 
-    <div id="buttons">
-      <button id="button">
-        Rock<i class="fa-solid fa-hand-back-fist"></i>
-      </button>
-      <button id="button">
-        paper
-        <i class="fa-solid fa-hand"></i>
-      </button>
-      <button id="button">
-        scissor<i class="fa-solid fa-hand-scissors"></i>
-      </button>
-      <button id="button">
-        lizard
-        <i class="fa-solid fa-hand-lizard"></i>
-      </button>
-      <button id="button">
-        spock
-        <i class="fa-solid fa-hand-spock"></i>
-      </button>
+    <div id="scoreboard">
+      <div id="player-score">Player: 0</div>
+      <div id="computer-score">Computer: 0</div>
     </div>
 
-    <div id="game-area">
-      <div id="player-choice">
-        <i class="fa-solid fa-hand-spock"></i>
+    <div id="choices">
+      <div class="choice" id="rock">
+        <i class="fa-solid fa-hand-back-fist"></i>
       </div>
-      <p>VS</p>
-      <div id="computer-choice"><i class="fa-solid fa-hand-spock"></i></div>
+      <div class="choice" id="paper">
+        <i class="fa-solid fa-hand"></i>
+      </div>
+      <div class="choice" id="scissors">
+        <i class="fa-solid fa-hand-scissors"></i>
+      </div>
     </div>
 
-    <footer>
-      <h3>RULES</h3>
-      <p>Scissors cuts paper, paper covers rock, rock crushes lizard</p>
-      <p>
-        Lizard poisons spock, rock smashes scissors, scissors decapitates lizard
-      </p>
-      <p>Lizard eats paper, paper disproves spock, spock vaporizes rock</p>
-      <p>and as it always has, rock crushes scissors</p>
-    </footer>
+    <div id="result">
+      <p>Choose your "weapon"!!!</p>
+    </div>
+    <div id="computer-choice"></div>
+
+    <button id="reset">Reset</button>
 
     <script
       src="https://kit.fontawesome.com/88b1bcad9a.js"
