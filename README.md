@@ -23,7 +23,7 @@
   - The reset button, located at the bottom of the game screen, resets both the scoreboard as well as the result text, resetting it to its default "Choose your 'weapon'!!!"
 ![reset button](assets/images/reset-button.jpg)
 - ### FEATURES TO IMPLEMENT
-  - Given more time I would like to add the "lizard" and "spock" choices for the [game](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock) popilarized by the tv show "big pang theory"
+  - Given more time I would like to add the "lizard" and "spock" choices for the [game](https://bigbangtheory.fandom.com/wiki/Rock,_Paper,_Scissors,_Lizard,_Spock) popularized by the tv show "big pang theory"
   - I would like to add a footer that when clicked, expands revealing the rules for the game mentioned above.
 ### TESTING
 ---
@@ -35,8 +35,27 @@
 ---
 - I had trouble for some time getting the javascript to communicate with the page which turned out was due to referencing the wrong filepath in the HTML file.
 
-VALIDATOR TESTING
+### VALIDATOR TESTING
 ---
-- 
-- second
-- third
+- HTML
+  - No bugs were found through the W3C validator. (link to the official W3C validator test provided [here](https://validator.w3.org/nu/?doc=https%3A%2F%2Ffelixsvenharry.github.io%2FPP2-rock-paper-scissors%2F)).
+- CSS
+  - No bugs were found through the jigsaw validator. (link to the official jigsaw validator test provided [here](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Ffelixsvenharry.github.io%2FPP2-rock-paper-scissors%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=sv))
+### UNFIXED BUGS
+---
+There are no unfixed bugs left.
+### DEPLOYMENT
+  - The site was deployed though GitHub pages. Below is a step by step guide.
+    - From the GitHub repository, navigate to the settings tab.
+    - In the menu on the left, find the "pages" tab
+    - in the source drop down menu, select "deploy from branch".
+    - In the branch drop donn menu, select "main".
+    - After selecting "save" the website will refresh and a link to the website can be found at the top of the page.
+
+A link to the working website can be found [here](https://felixsvenharry.github.io/PP2-rock-paper-scissors/).
+
+### CREDIT
+---
+- Prat of the Javascript for calculating the reult as well as the responsiveness for the buttons were taken from a tutorial provided by [codewithfaraz.com](https://www.codewithfaraz.com/content/107/create-rock-paper-scissors-game-with-html-css-and-javascript#final-output).
+### MEDIA
+- The icons for the buttons were sourced from [Font Awesome](https://fontawesome.com/).
