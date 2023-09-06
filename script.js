@@ -42,3 +42,30 @@ function calculateResult(playerChoice, computerChoice) {
     }
 }
 
+/**
+ * function to read what choice the player made
+ */
+function selcetPlayerMove() {
+    const playerChoice = this.id;
+    const computerChoice = computerMath();
+    calculateResult(playerChoice, computerChoice);
+}
+
+/**
+ * function to reset the game, scoreboard and text
+ * */
+function resetGame() {
+    playerScore = 0;
+    playerScoreElem.innerHTML = "Player: 0";
+    computerScore = 0;
+    computerScoreElem.innerHTML = "Computer: 0";
+    result.innerHTML = "Choose Your 'Weapon'!!!";
+    computerChoiceElem.innerHTML = '';
+}
+
+
+/**
+ * event listeners for the choice buttons as well as the reset button
+ */
+choices.forEach((option) => option.addEventListener('click', selcetPlayerMove));
+resetBtn.addEventListener('click', resetGame);
